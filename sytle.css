@@ -1,0 +1,51 @@
+/* generic */
+html { 
+	box-sizing: border-box; 
+	margin:0;
+}
+*, *:before, *:after { box-sizing: inherit; }
+
+
+
+/*** register form ***/
+.signup{
+	margin:5vw;
+	
+	width:80vw;
+	border:2px solid green;
+	padding:2vw;
+}
+#register{
+	
+}
+
+#register label{
+	display:inline-block;
+	border:2p solid blue;
+	width:100%;
+}
+#register input{
+	display:inline-block;
+	width:80%;
+}
+#register input[type=checkbox]{
+	width:5%;
+}
+#register input[type=submit]{
+	position:relative;
+	left:50%;
+	width:30%;
+}
+
+.not-valid-input{
+	border:2px solid red;
+}
+
+.valid-input{
+	border:2px solid green;
+}
+
+.focus-input{
+	border: 5px solid lightblue;
+}
+
